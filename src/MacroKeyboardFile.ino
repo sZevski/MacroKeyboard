@@ -69,11 +69,11 @@ void loop() {
     }
   else if (digitalRead(4 ) == 0) //Recap [0,2]
     {
-      Keyboard.press(KEY_LEFT_CTRL);
+      Keyboard.press(KEY_LEFT_GUI);
       delay(100);
-      Keyboard.press(KEY_LEFT_SHIFT);
+      Keyboard.press(KEY_LEFT_ALT);
       delay(100);
-      Keyboard.press('i');
+      Keyboard.press('g');
       delay(100);
       Keyboard.releaseAll();
       delay(delayms-200);
